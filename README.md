@@ -44,8 +44,10 @@ dotnet run --project .\src\MemoryScanner\MemoryScanner.csproj -c Release
 
 ## 构建与测试
 
+仓库根目录解决方案文件为 **`MemoryScanner.sln`**。
+
 ```powershell
-dotnet build .\内存扫描.sln -c Release
+dotnet build .\MemoryScanner.sln -c Release
 dotnet test .\tests\MemoryScanner.Tests\MemoryScanner.Tests.csproj -c Release
 ```
 
